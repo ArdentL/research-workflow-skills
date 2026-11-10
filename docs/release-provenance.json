@@ -1,0 +1,30 @@
+{
+  "project": "research-workflow-skills",
+  "release": "0.1.0",
+  "prepared_date": "2026-11-10",
+  "included_skills": [
+    "paper-to-proposal",
+    "research-decision-review"
+  ],
+  "workflow_sources": [
+    {
+      "name": "paper-reading-proposal-workflow",
+      "first_party": true,
+      "dated": "2026-11-03",
+      "source_sha256": "e9239447fa1c8536d428768cb00e6bdc4977bfb0ee88764785fc67f5f65fb099",
+      "public_version": "Adapted for portable roles and paths; private configuration omitted."
+    },
+    {
+      "name": "ai-for-science-workflow",
+      "first_party": true,
+      "dated": "2026-10-31",
+      "source_sha256": "54ea600883c1483bf58bb154dc5a0f505cd81474945c23dfddea00cc2934551c",
+      "public_version": "Adapted for portable roles and paths; private configuration omitted."
+    }
+  ],
+  "third_party_skill_text_bundled": false,
+  "example": {
+    "synthetic_demo": true,
+    "actual_model_calls": 0
+  }
+}

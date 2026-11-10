@@ -1,0 +1,32 @@
+{
+  "synthetic_demo": true,
+  "actual_model_calls": 0,
+  "readings": [
+    {
+      "reader": "reader-a",
+      "status": "synthetic-demo",
+      "provider": null,
+      "requested_model": null,
+      "resolved_model": null,
+      "provider_response_id_or_local_log": null,
+      "source_file": "source-paper.md",
+      "input_sha256": "94d6cb864eb2be591ceb75f360c5e6ec24f43f21151c4bd996b2775be0b0366c",
+      "coverage": "S1-S4 and Appendix A; Markdown source, no PDF pages",
+      "output_artifact": "reader-a.md",
+      "usage": null
+    },
+    {
+      "reader": "reader-b",
+      "status": "synthetic-demo",
+      "provider": null,
+      "requested_model": null,
+      "resolved_model": null,
+      "provider_response_id_or_local_log": null,
+      "source_file": "source-paper.md",
+      "input_sha256": "94d6cb864eb2be591ceb75f360c5e6ec24f43f21151c4bd996b2775be0b0366c",
+      "coverage": "S1-S4 and Appendix A; Markdown source, no PDF pages",
+      "output_artifact": "reader-b.md",
+      "usage": null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If these research workflow skills are useful, cite the repository and release."
+title: "Research Workflow Skills"
+type: software
+authors:
+  - family-names: ArdentL
+version: 0.1.0
+date-released: 2026-11-10
+license: MIT
+repository-code: "https://github.com/ArdentL/research-workflow-skills"
+url: "https://github.com/ArdentL/research-workflow-skills"
