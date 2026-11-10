@@ -1,12 +1,12 @@
 # Release validation
 
-Release: 0.1.0. Prepared: 2026-11-10.
+Release: 0.1.1. Prepared: 2026-11-10.
 
 ## Packaging and installation
 
 - Both SKILL.md files passed the system skill-format validator.
 - The bundle checker verifies UTF-8, required files, relative references, per-skill MIT notices, provenance metadata and synthetic-example integrity.
-- Eight standard-library regression tests cover dry-run side effects, complete standalone copying, conflict preflight preserving existing data, invalid names, source-directory recursion, normal package validity, false completed-example status and modified source hashes.
+- The dry-run path assertion normalizes expected Windows paths, including temporary directories represented with short names. Eight standard-library regression tests cover dry-run side effects, complete standalone copying, conflict preflight preserving existing data, invalid names, source-directory recursion, normal package validity, false completed-example status and modified source hashes.
 - Local Windows checks use a writable workspace temporary root. The initial execution sandbox's default temporary directory was not writable.
 - Relative-destination preview was separately checked outside filesystem virtualization and resolved correctly. No global skills or user settings were installed or modified.
 - CI runs the checker and regression tests on Windows and Linux with Python 3.10 and 3.13. Inspect Actions for current remote results.

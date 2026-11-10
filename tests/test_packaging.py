@@ -26,7 +26,7 @@ class InstallerTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             dest = Path(tmp) / "not-created"
             result = installer.install(["paper-to-proposal"], dest, dry_run=True)
-            self.assertEqual(result, [dest / "paper-to-proposal"])
+            self.assertEqual(result, [dest.resolve() / "paper-to-proposal"])
             self.assertFalse(dest.exists())
 
     def test_full_independent_skill_is_copied(self):
